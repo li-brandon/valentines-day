@@ -6,126 +6,126 @@
     <title>Brandon Li + Seoyoung Sung | Valentine's Day</title>
     <meta
       name="description"
-      content="A scrapbook-style Valentine's Day page for Brandon Li and Seoyoung Sung."
+      content="A Valentine's Day photo gallery for Brandon Li and Seoyoung Sung."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Caveat:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page-glow page-glow-left" aria-hidden="true"></div>
-    <div class="page-glow page-glow-right" aria-hidden="true"></div>
+    <div class="glow glow-left" aria-hidden="true"></div>
+    <div class="glow glow-right" aria-hidden="true"></div>
 
-    <main class="scrapbook">
-      <section class="hero card reveal" id="top">
-        <p class="kicker">Valentine's Day 2026</p>
-        <h1>For Brandon Li <span aria-hidden="true">&hearts;</span> Seoyoung Sung</h1>
-        <p class="lead">
-          A tiny digital scrapbook stitched together with red thread, pink paper,
-          and a whole lot of heart.
-        </p>
-        <a class="button" href="#timeline">Open Our Story</a>
+    <div class="hearts-container" id="hearts" aria-hidden="true"></div>
+
+    <main class="page">
+      <section class="hero reveal" id="top">
+        <p class="kicker">February 14, 2026</p>
+        <h1>
+          Happy Valentine's Day
+          <span class="heart-accent" aria-hidden="true">&#9829;</span>
+        </h1>
+        <p class="subline">For Brandon &amp; Seoyoung, with love.</p>
       </section>
 
-      <section class="timeline" id="timeline" aria-labelledby="timeline-title">
-        <h2 id="timeline-title" class="section-title reveal">Our Timeline</h2>
-        <div class="timeline-grid">
-          <article class="memory-card reveal rotate-left">
-            <p class="memory-date">Feb 14, 2024</p>
-            <h3>First Spark</h3>
-            <p>
-              Placeholder memory: the day felt brighter, warmer, and somehow full
-              of pink confetti in the air.
-            </p>
-          </article>
-          <article class="memory-card reveal rotate-right">
-            <p class="memory-date">May 18, 2024</p>
-            <h3>Favorite Day Out</h3>
-            <p>
-              Placeholder memory: a long walk, lots of laughs, and a small moment
-              we both wish we could replay.
-            </p>
-          </article>
-          <article class="memory-card reveal rotate-left">
-            <p class="memory-date">Sep 01, 2024</p>
-            <h3>Little Tradition</h3>
-            <p>
-              Placeholder memory: we found a tiny ritual that made ordinary days
-              feel like celebrations.
-            </p>
-          </article>
-          <article class="memory-card reveal rotate-right">
-            <p class="memory-date">Dec 24, 2024</p>
-            <h3>Cozy Night</h3>
-            <p>
-              Placeholder memory: soft music, warm lights, and that peaceful kind
-              of happiness that feels like home.
-            </p>
-          </article>
-        </div>
-      </section>
+      <section class="gallery" aria-label="Photo gallery">
+        <figure class="photo-frame featured reveal">
+          <button
+            type="button"
+            class="photo-button"
+            data-lightbox-src="IMG_0161.jpeg"
+            data-lightbox-alt="Brandon and Seoyoung"
+            aria-label="View photo fullscreen"
+          >
+            <img
+              class="photo-image"
+              src="IMG_0161.jpeg"
+              alt="Brandon and Seoyoung"
+              decoding="async"
+            />
+          </button>
+        </figure>
 
-      <section class="gallery" aria-labelledby="gallery-title">
-        <h2 id="gallery-title" class="section-title reveal">Photo Corner</h2>
         <div class="photo-grid">
-          <figure class="photo-card reveal">
-            <div class="photo-placeholder">Photo Placeholder 01</div>
-            <figcaption>Smile snapshot</figcaption>
+          <figure class="photo-frame reveal">
+            <button
+              type="button"
+              class="photo-button"
+              data-lightbox-src="IMG_0458.jpeg"
+              data-lightbox-alt="Brandon and Seoyoung"
+              aria-label="View photo fullscreen"
+            >
+              <img
+                class="photo-image"
+                src="IMG_0458.jpeg"
+                alt="Brandon and Seoyoung"
+                loading="lazy"
+                decoding="async"
+              />
+            </button>
           </figure>
-          <figure class="photo-card reveal">
-            <div class="photo-placeholder">Photo Placeholder 02</div>
-            <figcaption>Golden hour walk</figcaption>
-          </figure>
-          <figure class="photo-card reveal">
-            <div class="photo-placeholder">Photo Placeholder 03</div>
-            <figcaption>Favorite date night</figcaption>
-          </figure>
-          <figure class="photo-card reveal">
-            <div class="photo-placeholder">Photo Placeholder 04</div>
-            <figcaption>Soft winter evening</figcaption>
-          </figure>
-        </div>
-      </section>
 
-      <section class="letter card reveal" aria-labelledby="letter-title">
-        <h2 id="letter-title" class="section-title">A Little Love Letter</h2>
-        <p>
-          Dear Seoyoung, this page is a placeholder for all the memories we are
-          still collecting. Every card and every photo frame here is waiting for
-          a real story we can tell together.
-        </p>
-        <p>
-          Brandon, thank you for the laughter in everyday moments and for making
-          ordinary days feel meaningful. This scrapbook may be digital, but the
-          feelings behind it are very real.
-        </p>
-        <p class="signoff">With love, always.</p>
-      </section>
+          <figure class="photo-frame reveal">
+            <button
+              type="button"
+              class="photo-button"
+              data-lightbox-src="IMG_0480.jpeg"
+              data-lightbox-alt="Brandon and Seoyoung"
+              aria-label="View photo fullscreen"
+            >
+              <img
+                class="photo-image"
+                src="IMG_0480.jpeg"
+                alt="Brandon and Seoyoung"
+                loading="lazy"
+                decoding="async"
+              />
+            </button>
+          </figure>
 
-      <section class="secret card reveal" aria-labelledby="secret-title">
-        <h2 id="secret-title" class="section-title">One More Thing</h2>
-        <p>There is a hidden note waiting at the very end.</p>
-        <button
-          type="button"
-          class="button"
-          id="reveal-button"
-          aria-expanded="false"
-          aria-controls="secret-message"
-        >
-          Reveal Secret Message
-        </button>
-        <div id="secret-message" class="secret-message" hidden>
-          <p>
-            You are my favorite chapter, my best memory, and my sweetest future.
-            Happy Valentine's Day, Brandon &amp; Seoyoung.
-          </p>
+          <figure class="photo-frame reveal">
+            <button
+              type="button"
+              class="photo-button"
+              data-lightbox-src="lp_image.jpeg"
+              data-lightbox-alt="Brandon and Seoyoung"
+              aria-label="View photo fullscreen"
+            >
+              <img
+                class="photo-image"
+                src="lp_image.jpeg"
+                alt="Brandon and Seoyoung"
+                loading="lazy"
+                decoding="async"
+              />
+            </button>
+          </figure>
         </div>
       </section>
     </main>
+
+    <div class="lightbox" id="lightbox" hidden>
+      <button
+        type="button"
+        class="lightbox-close"
+        id="lightbox-close"
+        aria-label="Close fullscreen photo"
+      >
+        Close
+      </button>
+      <div
+        class="lightbox-stage"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Fullscreen photo"
+      >
+        <img id="lightbox-image" class="lightbox-image" src="" alt="" />
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
